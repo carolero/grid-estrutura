@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #FFFF00;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.thirteen {
+    background-color: #AFFF00;
+    grid-column: 1/3;
+}
+
+.fourteen {
+    background-color: #AFFF00;
+    grid-column: 3/5;
+}
+
+.fifteen {
+    background-color: #AFFF00;
+    grid-column: 5/7;
+}
+
+.sixteen {
+    background-color: #AFFF00;
+    grid-column: 7/9;
+}
+
+.seventeen {
+    background-color: #AFFF00;
+    grid-column: 9/11;
+}
+
+.eighteen {
+    background-color: #AFFF00;
+    grid-column: 11/13;
+}
+
+.nineteen {
+    background-color: #1EE2A6;
+    grid-column: 1/4;
+}
+
+.twenty {
+    background-color: #1EE2A6;
+    grid-column: 4/7;
+}
+
+.twenty-one {
+    background-color: #1EE2A6;
+    grid-column: 7/10;
+}
+
+.twenty-two{
+    background-color: #1EE2A6;
+    grid-column: 10/13;
+}
+
+.twenty-three {
+    background-color: #01B6AD;
+    grid-column: 1/5;
+}
+
+.twenty-four{
+    background-color: #01B6AD;
+    grid-column: 5/9;
+}
+
+.twenty-five {
+    background-color: #01B6AD;
+    grid-column: 9/13;
+}
+
+.twenty-six {
+    background-color: #9C42D1;
+    grid-column: 1/7;
+}
+
+.twenty-seven {
+    background-color: #9C42D1;
+    grid-column: 7/13;
+}
+
+.twenty-eight {
+    background-color: #D126A9;
+    grid-column: 1/13;
+}
